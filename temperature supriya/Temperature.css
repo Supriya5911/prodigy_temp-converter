@@ -1,0 +1,35 @@
+body {
+    margin: 20;
+    padding: 20;
+    font-family: Times New Roman, sans-serif;
+    background-image: url('https://domf5oio6qrcr.cloudfront.net/medialibrary/10080/conversions/GettyImages-1205118861-thumb.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    padding: 6px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    font-size: 20px;
+  }
+  

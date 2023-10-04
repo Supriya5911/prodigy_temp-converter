@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Temperature Converter</title>
+</head> 
+<style>
+body {
+    margin: 20;
+    padding: 20;
+    font-family: Times New Roman, sans-serif;
+    background-image: url('https://cdn.abcotvs.com/dip/images/5343664_061219-cc-accuwx-heat-wave-formation-vid.jpg?w=1600'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    padding: 6px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    font-size: 20px;
+  }
+  </style>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="input-container">
+      <label for="celsius">Celsius:</label>
+      <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+      <button onclick="convertTemperature()">Convert</button>
+    </div>
+    <div class="result-container">
+      <p>Fahrenheit: <span id="fahrenheit"></span></p>
+      <p>Kelvin: <span id="kelvin"></span></p>
+      <button onclick="detectTemperature()">Detect Temperature</button>
+    </div>
+  </div>
+  <script src="/public/Temperature.js"></script>
+</body>
+</html>
